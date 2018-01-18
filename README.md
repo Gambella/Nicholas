@@ -34,7 +34,7 @@ for user in $utenti; do
 
 	for IP in $TUTTI_GLI_IP; do
 		 cp remoto.sh /home/$user/Scrivania/remoto-$IP.sh
-	done
+	done  //fine ciclo for
 done
 
 FASE 2:
