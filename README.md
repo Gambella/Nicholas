@@ -35,7 +35,7 @@ for user in $utenti; do
 	for IP in $TUTTI_GLI_IP; do
 		 cp remoto.sh /home/$user/Scrivania/remoto-$IP.sh
 	done  //fine ciclo for
-done
+done // fine ciclo for
 
 FASE 2:
  Cambiare il contenuto di remoto.sh in modo che esegua remmina -c VM.remmina da scaricare su https://github.com/feroda/lessons-itis/blob/master/remmina-script/VM.remmi
